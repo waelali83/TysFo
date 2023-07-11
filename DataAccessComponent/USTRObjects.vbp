@@ -1,0 +1,51 @@
+Type=OleDll
+Reference=*\G{00020430-0000-0000-C000-000000000046}#2.0#0#..\..\Windows\SysWOW64\stdole2.tlb#OLE Automation
+Reference=*\G{00000200-0000-0010-8000-00AA006D2EA4}#2.0#0#..\..\Program Files (x86)\Common Files\System\ado\msado20.tlb#Microsoft ActiveX Data Objects 2.0 Library
+Reference=*\G{74C08640-CEDB-11CF-8B49-00AA00B8A790}#1.0#0#..\..\Windows\system32\comsvcs.dll#Microsoft Transaction Server Type Library
+Class=ParamCollection; ParamCollection.cls
+Class=ParamObj; ParamObj.cls
+Module=Globals; Globals.bas
+Class=DataConnectionObj; DataConnectionObj.cls
+Class=ArchInterface; ArchInterface.cls
+Class=Setting; Setting.cls
+Class=DataAccess; DataAccess.cls
+Startup="(None)"
+HelpFile=""
+Title="USTechnologiesSoftwareComponents"
+ExeName32="USTechnologiesSoftwareComponents.dll"
+Command32=""
+Name="USTRObjects"
+HelpContextID="0"
+CompatibleMode="2"
+CompatibleEXE32="USTechnologiesSoftwareComponents.dll"
+VersionCompatible32="1"
+MajorVer=1
+MinorVer=0
+RevisionVer=0
+AutoIncrementVer=0
+ServerSupportFiles=0
+VersionComments="Developed by Shawn Livermore, USTR"
+VersionCompanyName="US Technology"
+VersionProductName="US Technologies Software Components"
+CompilationType=0
+OptimizationType=0
+FavorPentiumPro(tm)=0
+CodeViewDebugInfo=0
+NoAliasing=0
+BoundsCheck=0
+OverflowCheck=0
+FlPointCheck=0
+FDIVCheck=0
+UnroundedFP=0
+StartMode=1
+Unattended=-1
+Retained=1
+ThreadPerObject=0
+MaxNumberOfThreads=1
+DebugStartupOption=0
+
+[MS Transaction Server]
+AutoRefresh=1
+
+[RVB]
+DeleteClass1=Report

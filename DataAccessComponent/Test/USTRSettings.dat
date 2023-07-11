@@ -1,0 +1,8 @@
+False' use transaction 
+True' log details or not
+frz_user' User name 
+frzuser1!' Password
+DFRZ1' DSN
+C:\ProgramData\Tyson Foods\FreezerFilePath\' Path/Directory for Multiple Product Code files
+True' Connect using DSN or otherwise
+sas' Data Source to be used to connect incase DSN is not used
